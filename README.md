@@ -12,5 +12,5 @@
 
 ## Overview
 
-Full list of solutions for University of Helsinki Mooc.fi Java Programming I course 2022.  
+Java MOOC is an online course developed by the University of Helsinki that helps learn basic concepts in the Java programming language. This readme file provides information about the Java MOOC course and helps students enrolled in the course how to get started. Full list of solutions for University of Helsinki Mooc.fi Java Programming I course 2022.  
  
