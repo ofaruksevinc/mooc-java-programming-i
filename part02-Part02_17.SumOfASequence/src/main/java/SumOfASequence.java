@@ -1,25 +1,16 @@
 
 import java.util.Scanner;
 
-public class FromWhereToWhere {
+public class SumOfASequence {
 
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Where to?");
-
-        int toInput = Integer.valueOf(scanner.nextLine());
-
-        System.out.print("Where from");
-
-        int fromInput = Integer.valueOf(scanner.nextLine());
-
-        while (fromInput <= toInput) {
-
-            System.out.println(fromInput);
-            fromInput++;
+        System.out.print("Last number? ");
+        int number = Integer.valueOf(scanner.nextLine());
+        int sum = 0;
+        for (int i = 1; i <= number; i++) {
+            sum += i;
         }
-
+        System.out.println("The sum is " + sum);
     }
 }
