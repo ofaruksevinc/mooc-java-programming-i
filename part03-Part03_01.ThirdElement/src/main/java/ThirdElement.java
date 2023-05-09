@@ -10,13 +10,17 @@ public class ThirdElement {
         ArrayList<String> list = new ArrayList<>();
         while (true) {
             String input = scanner.nextLine();
-            if (input.equals("")) {
+            if (input.isEmpty()) {
                 break;
             }
 
             list.add(input);
         }
 
-        System.out.println(lista.get(0));
+        if (list.size() >= 3) {
+            System.out.println(list.get(2));
+        } else {
+            System.out.println("Listede yeterli öğe yok.");
+        }
     }
 }
